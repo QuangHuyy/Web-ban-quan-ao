@@ -117,7 +117,7 @@ namespace CNW_WebBanQuanAo.Controllers
                 }
                 return View(cart);
             }
-            return Redirect("https://Account/DangNhap");
+            return Redirect("/Account/DangNhap"); //C de nhu nay la duoc r
         }
 
 
