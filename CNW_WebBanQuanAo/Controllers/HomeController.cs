@@ -15,6 +15,7 @@ namespace CNW_WebBanQuanAo.Controllers
         MyContext context = new MyContext();
         public ActionResult Index()
         {
+            var t = 0;
             //var model = context.MATHANG.Where(x => x.TenMH != null).ToList();
             //return View(model);
             //HttpCookie testCookie = new HttpCookie("testCookie");
